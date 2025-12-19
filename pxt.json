@@ -1,0 +1,75 @@
+{
+    "name": "cutebot-francais",
+    "version": "1.0.0",
+    "description": "Extension Cutebot en français avec simulateur",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+    },
+    "files": [
+        "README.md",
+        "cutebot-french.ts",
+        "protocol/protocol.ts",
+        "i2c.ts",
+        "microbit.ts",
+        "messages.ts",
+        "blocks.ts",
+        "robotdriver.ts",
+        "storage.cpp",
+        "storage.ts",
+        "radio.ts",
+        "calibration.ts",
+        "tester.ts",
+        "sim.ts",
+        "drivers/drivers.ts",
+        "drivers/hbridgemotor.ts",
+        "drivers/ws2812bleds.ts",
+        "drivers/sr04sonar.ts",
+        "drivers/pinlinedetectors.ts",
+        "drivers/servoarm.ts",
+        "drivers/kalmanfilter1d.ts",
+        "drivers/sim.ts",
+        "drivers/rccar.ts",
+        "robots/robot.ts",
+        "robots/keystudiominismartrobot.ts",
+        "robots/yahboomtinybit.ts",
+        "robots/elecfreakscutebot.ts",
+        "robots/elecfreakscutebotpro.ts",
+        "robots/dfrobotmaqueen.ts",
+        "robots/dfrobotmaqueenplusv2.ts",
+        "robots/kittenbotminilfr.ts",
+        "robots/kittenbotrobotbit.ts",
+        "robots/kittenbotnanobit.ts",
+        "robots/kittenbottabbybot.ts",
+        "robots/kitronikmotordriverrccar.ts",
+        "robots/inksmithk8.ts",
+        "robots/sim.ts",
+        "constants.ts",
+        "robots/knotechcallibot.ts",
+        "robots/tslmotionkit2.ts",
+        "_locales/de/microbit-robot-strings.json",
+        "tutorials/getting-started.md",
+        "tutorials/light-and-sound.md",
+        "tutorials/line-follower.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "fileDependencies": {
+        "kittenbotnanobit.ts": "target:microbit",
+        "kittenbotrobotbit.ts": "target:microbit",
+        "kittenbottabbybot.ts": "target:microbit",
+        "yahboomtinybit.ts": "target:microbit",
+        "microbit.ts": "target:microbit"
+    },
+    "targetVersions": {
+        "target": "6.0.26",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit",
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
